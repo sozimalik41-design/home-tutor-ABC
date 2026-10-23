@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lavender-primary: #4C1D95;
+  --color-lavender-accent: #A78BFA;
+  --color-lavender-soft: #F5F3FF;
+  --color-lavender-border: #DDD6FE;
+  --color-lavender-hover: #3B0764;
+  --color-lavender-text: #1F2937;
+  --color-lavender-muted: #6B7280;
+}
+
+@layer base {
+  :root {
+    --brand-primary: #4C1D95;
+    --brand-accent: #A78BFA;
+    --brand-bg: #FFFFFF;
+    --brand-soft: #F5F3FF;
+    --brand-text: #1F2937;
+    --brand-muted: #6B7280;
+    --brand-border: #DDD6FE;
+    --brand-hover: #3B0764;
+
+    /* Backward compatibility mapping to Lavender Dream */
+    --brand-navy: #4C1D95;
+    --brand-purple: #3B0764;
+    --brand-pink: #4C1D95;
+    --brand-magenta: #7C3AED;
+    --brand-light: #F5F3FF;
+    --brand-lavender: #A78BFA;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}

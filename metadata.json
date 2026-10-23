@@ -1,0 +1,6 @@
+{
+  "name": "Home Tutor",
+  "description": "Professional home tutoring platform connecting students with verified, qualified tutors for primary, secondary, and competitive exams with easy appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
